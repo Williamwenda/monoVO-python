@@ -9,7 +9,7 @@ vo = VisualOdometry(cam, '/home/wenda/Documents/VIO_learning/kitti-data/data_odo
 
 traj = np.zeros((600,600,3), dtype=np.uint8)
 
-for img_id in range(4500):
+for img_id in range(450):
 
 	img = cv2.imread('/home/wenda/Documents/VIO_learning/kitti-data/data_odometry_gray/dataset/sequences/00/image_0/'+str(img_id).zfill(6)+'.png', 0)
 
